@@ -11,5 +11,17 @@ public class Main {
         boolean n = a > b; // true
         boolean m = a <= 10; // true
         boolean k = a >= b; // true
+
+        boolean t = (a>=10) & (a>b); // true
+        boolean t1 = (a>=10) & (a<b); // false
+
+        boolean t2 = (a<10) && (a>b); // false
+
+        boolean p = (a>=10) | (a>b); // true
+        boolean p1 = (a>=10) || (a>b); // true
+
+        boolean q = !(a>=10); // false
+
+        boolean w = (a>=10) ^ (a>b); // false
     }
 }
